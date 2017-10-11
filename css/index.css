@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#box{
+    width: 1100px;
+    height: 856px;
+    background:url("../image/index_img/bg.jpg");
+    margin: 0 auto;
+}
+#tasks{
+	position:relative;
+	top:600px;
+    width: 1025px;
+    height: 125px;
+    margin: 0 auto;
+}
+
+/*链接*/
+a:link {
+    color: #000;
+    text-decoration: blink;
+}
+
+/* hover悬停 */
+.bn:hover {
+    background-color: aliceblue;
+    text-align: center;
+    color: #00F;
+}
+
+/*active正在被点击*/
+.bn:active {
+    background-color: darkgray;
+    border-radius: 15px;
+    color: #00F;
+}
+
+.bn {
+    width: 100px;
+    height: auto;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid lawngreen;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+}

@@ -1,0 +1,119 @@
+/*
+absolute
+生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。
+元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。
+
+fixed
+生成绝对定位的元素，相对于浏览器窗口进行定位。
+元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。
+
+relative
+相对定位会按照元素的原始位置对该元素进行移动。
+样式 "left:-20px" 从元素的原始左侧位置减去 20 像素。
+样式 "left:20px" 向元素的原始左侧位置增加 20 像素。
+
+static	默认值。没有定位，元素出现在正常的流中（忽略 top, bottom, left, right 或者 z-index 声明）。
+
+inherit	规定应该从父元素继承 position 属性的值。
+*/
+
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: #eef0f4;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #5ac0ce;
+    color: beige;
+    position: fixed;
+    z-index: 1;
+}
+.reg{
+    width: 40px;
+    height: 20px;
+    font-size: 16px;
+    float: left;
+    margin: 12px 15px ;
+}
+.log{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    font-size: 20px;
+    font-weight:800;
+    margin: 0 auto;
+    top: 10px;
+}
+.clo{
+    width: 40px;
+    height: 20px;
+    font-size: 16px;
+    margin: 12px 15px ;
+    float: right;
+}
+a:link {
+    text-decoration: blink;
+}
+a{
+    color: beige;
+}
+.mobile input{
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    height: 54px;
+    background:url("../image/task_4_img/mobile.jpg") no-repeat;
+    background-size: 44px 54px;
+    border: 0 none;
+    outline: none;
+    padding-left: 44px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.password input{
+    margin-top: 74px;
+    position: absolute;
+    width: 100%;
+    height: 54px;
+    background:url("../image/task_4_img/password.jpg") no-repeat;
+    background-size: 44px 54px;
+    border: 0 none;
+    outline: none;
+    padding-left: 44px;
+    box-sizing: border-box;
+    background-color: white;
+}
+input:hover{
+    /*background-color: #cccccc;*/
+}
+.content{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 192px ;
+    background-color: #eef0f4;
+}
+.footer{
+    position: absolute;
+    height: 40px;
+    left: 0;
+    right: 0;
+    top: 140px;
+    background-color: #5ac0ce;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 21px;
+    font-weight:800;
+}
+.update_pass{
+    font-size: 14px;
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    color: #5ac0ce;
+    border-bottom: 1px solid #5ac0ce;
+}

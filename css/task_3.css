@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: mediumturquoise;
+}
+#content{
+    width: 100%;
+    height:100%;
+}
+#quit_url{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 26px;
+    height: auto;
+}
+#logo{
+    width: 90px;
+    height:auto;
+    margin: 40px auto 0;
+
+}
+#logo_url{
+    width: 90px;
+    height:auto;
+}
+#ui{
+    margin-top: 120px;
+    margin-bottom: 80px;
+    width: auto;
+    height:40px;
+    font-size: 10px;
+}
+#ui_22{
+    width: 45px;
+    height: auto;
+    margin-left: 17%;
+    float: left;
+}
+#ui_ptt{
+    width: 45px;
+    height: auto;
+    margin-right: 17%;
+    float: right;
+}
+.ui_text{
+    margin-top: 10px;
+    color: aliceblue;
+}
+.ui_img{
+    width:45px;
+    height: auto;
+}
+#text{
+    font-size: 10px;
+    color: aliceblue;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+}
