@@ -110,10 +110,13 @@ li{
     bottom: 0;
     left:0;
     right: 0;
-    background-color: #CCEFF7;
+    background-color: rgba(153, 223, 240, 0.5);
+    /*background-color: #CCEFF7;*/
     padding: 0.8rem 4%;
+    /*opacity: 0.8;*/
 }
 .again{
+    position: relative;
     float: left;
     width: 48%;
     height: 100%;
@@ -122,6 +125,7 @@ li{
     border-radius: 4px;
 }
 .update{
+    position: relative;
     float: right;
     width: 48%;
     height: 100%;
