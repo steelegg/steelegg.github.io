@@ -3,30 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
-    <link href="../../css/task_8_css/index.css" rel="stylesheet" type="text/css"/>
-    <link href="../../css/task_8_css/final.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    <link media="(min-width: 900px)" href="../../css/task_8_css/max/index.css" rel="stylesheet" type="text/css"/>
+    <link media="(min-width: 900px)" href="../../css/task_8_css/max/final.css" rel="stylesheet" type="text/css">
+
+    <link media="(max-width: 500px)" href="../../css/task_8_css/min/index.css" rel="stylesheet" type="text/css"/>
+    <link media="(max-width: 500px)" href="../../css/task_8_css/min/final.css" rel="stylesheet" type="text/css">
+
+    <!--bootstrap-->
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="../../css/task_8_css/bootstrap/bootstrap.min.css">-->
+    <script src="../../css/task_8_css/bootstrap/jquery.min.js"></script>
+    <script src="../../css/task_8_css/bootstrap/bootstrap.min.js"></script>
+</head>
+
+<body>
 <!--登录栏-->
 <div class="login-row">
     <div class="mobile">客服热线-6666-6666</div>
     <div class="login-ui">
-        <a class="qq" href="#"><div></div></a>
-        <a class="vx" href="#"><div></div></a>
-        <a class="xl" href="#"><div></div></a>
+        <li><a class="login">注册</a></li>
+        <li><a class="register">登录</a></li>
+        <a class="qq" href="#">
+            <div></div>
+        </a>
+        <a class="vx" href="#">
+            <div></div>
+        </a>
+        <a class="xl" href="#">
+            <div></div>
+        </a>
     </div>
 </div>
 
 <!--菜单栏-->
 <div class="header">
+    <div class="logo"></div>
     <div class="menu">
-        <div class="logo">
-            <!--<img src="../../image/task_8_img/index_img/logo.png"/>-->
-        </div>
         <li><a href="index.html">关于</a></li>
         <li><a href="#">推荐</a></li>
         <li><a href="job-list.html">职业</a></li>
@@ -54,11 +69,6 @@
             <img src="../../image/task_8_img/index_img/run-1.jpg" alt="Third slide">
         </div>
     </div>
-    <!-- 轮播（Carousel）导航 -->
-    <!--<a class="carousel-control left"  href="#myCarousel"-->
-       <!--data-slide="prev">&lsaquo;</a>-->
-    <!--<a class="carousel-control right" href="#myCarousel"-->
-       <!--data-slide="next">&rsaquo;</a>-->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -149,7 +159,7 @@
     <!--优秀学员展示-->
     <li class="content-li">
         <p class="content-li-title">优秀学员</p>
-        <div class="student-body" >
+        <div class="student-body">
 
             <div class="student">
                 <a href="#"><img class="head-img" src="../../image/task_8_img/index_img/15.jpg"></a>
@@ -197,40 +207,40 @@
         </div>
     </li>
     <!--合作企业-->
-    <li class="content-li">
+    <li class="content-li-hz">
         <p class="content-li-title">合作企业</p>
-        <div class="content-li-body">
-            <div class="ui-row"><img src="../../image/task_8_img/index_img/11.jpg"></div>
-            <div class="ui-row"><img src="../../image/task_8_img/index_img/10.jpg"></div>
-            <div class="ui-row"><img src="../../image/task_8_img/index_img/12.jpg"></div>
-            <div class="ui-row"><img src="../../image/task_8_img/index_img/13.jpg"></div>
-            <div class="ui-row"><img src="../../image/task_8_img/index_img/14.jpg"></div>
+        <div class="content-li-hz-img">
+            <div class="ui-row-al"><img src="../../image/task_8_img/index_img/11.jpg"></div>
+            <div class="ui-row-js"><img src="../../image/task_8_img/index_img/10.jpg"></div>
+            <div class="ui-row-hx"><img src="../../image/task_8_img/index_img/12.jpg"></div>
+            <div class="ui-row-rl"><img src="../../image/task_8_img/index_img/13.jpg"></div>
+            <div class="ui-row-qn"><img src="../../image/task_8_img/index_img/14.jpg"></div>
         </div>
     </li>
     <!--友情链接-->
     <div class="link">
         <p class="content-li-title">友情链接</p>
         <div class="link-li">
-            <li><a href="#" >手机软件</a></li>
-            <li><a href="#" >教师招聘</a></li>
-            <li><a href="#" >手机软件</a></li>
-            <li><a href="#" >教师招聘</a></li>
-            <li><a href="#" >手机软件</a></li>
-            <li><a href="#" >教师招聘</a></li>
-            <li><a href="#" >找工作</a></li>
-            <li><a href="#" >教师招聘</a></li>
-            <li><a href="#" >找工作</a></li>
-            <li><a href="#" >教师招聘</a></li>
-            <li><a href="#" >找工作</a></li>
-            <li><a href="#" >手机软件</a></li>
-            <li><a href="#" >教师招聘</a></li>
-            <li><a href="#" >手机软件</a></li>
-            <li><a href="#" >教师招聘</a></li>
-            <li><a href="#" >手机软件</a></li>
-            <li><a href="#" >教师招聘</a></li>
-            <li><a href="#" >找工作</a></li>
-            <li><a href="#" >教师招聘</a></li>
-            <li><a href="#" >找工作</a></li>
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">找工作</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">找工作</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">找工作</a></li>
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">手机软件</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">找工作</a></li>
+            <li><a href="#">教师招聘</a></li>
+            <li><a href="#">找工作</a></li>
         </div>
     </div>
 </div>

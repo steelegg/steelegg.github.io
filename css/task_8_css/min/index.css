@@ -1,8 +1,6 @@
 /*task-8的index*/
-.run-img {
-    height: 24rem;
-    width: 100%;
-    background-color: #4cae4c;
+.item img {
+    background-size: cover;
 }
 
 .content-li-count {
@@ -10,7 +8,6 @@
     height: auto;
     /*background-color: #3c763d;*/
     margin-top: 4rem;
-    padding: 0 8rem 0 8rem;
     /*flex布局精髓*/
     display: flex;
     /*主轴方向,排序方式从左往右*/
@@ -23,10 +20,13 @@
 
 .content-ui-gx, .content-ui-gf, .content-ui-rm, .content-ui-count {
     height: 10rem;
-    width: 16rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    /*background-color: yellow;*/
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: yellow;
+}
+.content-ui-count p {
+    text-align: center;
 }
 
 .content-ui img{
@@ -54,14 +54,17 @@
 }
 
 .count-p {
+    width:6rem;
     position: relative;
+    background: url("../../../image/task_8_img/index_img/8.jpg") no-repeat;
+    background-size: 1.4rem 1.4rem;
     font-size: 1.6rem;
-    padding-left: 2rem;
-    background: url("../../image/task_8_img/index_img/8.jpg") no-repeat left;
-    background-size: 1.5rem 1.5rem;
+    margin: 0 auto;
     color: #26A26F;
 }
-
+.content-ui-count{
+    text-align: center;
+}
 
 .content-li-title {
     height: 1.6rem;
@@ -81,18 +84,20 @@
 }
 
 .content-li ,.link{
-    padding: 0 8rem 0 8rem;
+    /*padding: 0 8rem 0 8rem;*/
+    background-color: #29bde0;
 }
 
 .content-li-study{
-    padding: 0 8rem 0 8rem;
+    /*padding: 0 8rem 0 8rem;*/
 }
 /*布局类*/
 .content-li-body {
-    margin-top: 2rem;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.content-li-hz{
+    display: none;
 }
 
 .study-method-number{
@@ -110,7 +115,7 @@
 .study-ui{
     height: 2rem;
     width: 2rem;
-    background:url("../../image/task_8_img/index_img/9.jpg") no-repeat center;
+    background:url("../../../image/task_8_img/index_img/9.jpg") no-repeat center;
     background-size: cover;
     float: right;
 }
@@ -131,7 +136,8 @@
 }
 
 .student-body{
-    margin-top: 2rem;
+    margin: 2rem auto;
+    width: 16rem;
     display: flex;
     /*主轴方向,排序方式从左往右*/
     flex-direction: row;
