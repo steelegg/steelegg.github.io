@@ -23,13 +23,13 @@
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background-color: yellow;
 }
+
 .content-ui-count p {
     text-align: center;
 }
 
-.content-ui img{
+.content-ui img {
     position: relative;
     height: auto;
     width: 6rem;
@@ -54,7 +54,7 @@
 }
 
 .count-p {
-    width:6rem;
+    width: 6rem;
     position: relative;
     background: url("../../../image/task_8_img/index_img/8.jpg") no-repeat;
     background-size: 1.4rem 1.4rem;
@@ -62,7 +62,8 @@
     margin: 0 auto;
     color: #26A26F;
 }
-.content-ui-count{
+
+.content-ui-count {
     text-align: center;
 }
 
@@ -83,59 +84,61 @@
     padding: 1rem 0 1rem 0;
 }
 
-.content-li ,.link{
-    /*padding: 0 8rem 0 8rem;*/
-    background-color: #29bde0;
+.content-li, .link {
+
 }
 
-.content-li-study{
-    /*padding: 0 8rem 0 8rem;*/
+.content-li-study {
+
 }
+
 /*布局类*/
 .content-li-body {
     margin: 2rem 0;
 }
 
-.content-li-hz{
+.content-li-hz {
     display: none;
 }
 
-.study-method-number{
+.study-method-number {
     height: 2.6rem;
     width: 2.6rem;
     text-align: center;
     color: #29b078;
     font-size: 1.6rem;
     border: solid 1px #e6e5e6;
-    -webkit-border-radius:50%;
-    -moz-border-radius:50%;
-    border-radius:50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
     float: left;
 }
-.study-ui{
+
+.study-ui {
     height: 2rem;
     width: 2rem;
-    background:url("../../../image/task_8_img/index_img/9.jpg") no-repeat center;
+    background: url("../../../image/task_8_img/index_img/9.jpg") no-repeat center;
     background-size: cover;
     float: right;
 }
 
-.study-method-text{
+.study-method-text {
     float: left;
     width: 12.8rem;
     margin-left: 2rem;
     color: #999;
 }
+
 .student {
     height: 20rem;
     width: 16rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border:solid 1px #eee;
+    border: solid 1px #eee;
     color: #333;
 }
 
-.student-body{
+.student-body {
     margin: 2rem auto;
     width: 16rem;
     display: flex;
@@ -146,33 +149,37 @@
     /*沿着主轴的对齐方式*/
     justify-content: space-between;
 }
-.head-img{
+
+.head-img {
     position: relative;
-    left:50%;
+    left: 50%;
     margin-left: -4rem;
     height: 8rem;
     width: 8rem;
     border-radius: 50%;
 }
-.student-name{
+
+.student-name {
     text-align: center;
     font-size: 1.6rem;
 
 }
-.student-info{
+
+.student-info {
     position: relative;
     top: 1rem;
     color: #999;
 }
-.cirs{
+
+.cirs {
     height: 0.5rem;
     width: 4rem;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
+
 .cir-3,
 .cir-2,
-.cir-4
-{
+.cir-4 {
     float: left;
     margin-right: 0.2rem;
     height: 0.5rem;
@@ -180,7 +187,8 @@
     border-radius: 50%;
     border: solid #aaa 1px;
 }
-.cir-1{
+
+.cir-1 {
     float: left;
     margin-right: 0.2rem;
     height: 0.5rem;
@@ -189,7 +197,7 @@
     background-color: #29b078;
 }
 
-.link-li{
+.link-li {
     display: flex;
     /*主轴方向,排序方式从左往右*/
     flex-direction: row;
@@ -198,11 +206,12 @@
     /*沿着主轴的对齐方式*/
     justify-content: space-between;
 }
-.link li{
+
+.link li {
     margin-left: 2rem;
     margin-right: 2rem;
 }
 
-.link{
+.link {
     border-top: solid 2px #d6d6d6;
 }
