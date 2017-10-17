@@ -80,6 +80,7 @@ a:active {
     height: 4rem;
     font-size: 1.6rem;
     background-color: #29b078;
+    padding-left: 14.6rem;
 }
 .logo{
     height: 4rem;
@@ -88,11 +89,15 @@ a:active {
     background:url("../../../image/task_8_img/index_img/logo.png") no-repeat center;
     background-size: 8rem 4rem;
 }
+.menu-min{
+    display: none;
+}
 
-.menu {
+.menu-max {
     height: 100%;
     padding: 0 16rem;
 }
+
 
 .header li {
     display: inline;
