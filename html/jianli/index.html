@@ -4,43 +4,46 @@
     <meta charset="UTF-8">
     <title>java简历</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
 
         p {
-            font-size:18px;
+            font-size: 18px;
         }
 
         li {
             list-style: none;
         }
+
         #center-block {
             width: 1000px;
             height: auto;
             margin: 0 auto;
         }
+
         table td {
-            font-size:18px;
+            font-size: 18px;
             padding: 4px 0;
             width: 40%;
         }
-        .left-td{
+
+        .left-td {
             font-weight: 600;
             width: 10%;
         }
 
-        li h3{
+        li h3 {
             padding: 6px;
-            background: -webkit-linear-gradient(left, #7FFFD4,#fff); /* Safari 5.1 - 6.0 */
-            background: -o-linear-gradient(right, #7FFFD4,#fff); /* Opera 11.1 - 12.0 */
-            background: -moz-linear-gradient(right, #7FFFD4,#fff); /* Firefox 3.6 - 15 */
-            background: linear-gradient(to right,#7FFFD4,#fff); /* 标准的语法（必须放在最后） */
+            background: -webkit-linear-gradient(left, #7FFFD4, #fff); /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(right, #7FFFD4, #fff); /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(right, #7FFFD4, #fff); /* Firefox 3.6 - 15 */
+            background: linear-gradient(to right, #7FFFD4, #fff); /* 标准的语法（必须放在最后） */
             color: #fff;
         }
 
-        .bottom-td ,.left{
+        .bottom-td, .left {
             width: 1000px;
             padding-left: 34px;
         }
@@ -53,9 +56,10 @@
             font-weight: 600;
         }
 
-        li ol li{
+        li ol li {
             padding-left: 34px;
         }
+
         #none {
             height: 100px;
         }
@@ -69,171 +73,164 @@
 
 </head>
 <body>
-    <div id="center-block">
-        <h2 style="text-align: center;color: #7FFFD4;padding: 20px 0">JAVA简历</h2>
-        <a id="download" href="	http://temporary-1253633260.cosgz.myqcloud.com/java%E7%AE%80%E5%8E%86.pdf">(下载pdf版)</a>
-        <ul>
-            <li>
-                <h3>个人信息</h3>
+<div id="center-block">
+    <h2 style="text-align: center;color: #7FFFD4;padding: 20px 0">JAVA简历</h2>
+    <!--<a id="download" href="">(下载pdf版)</a>-->
+    <ul>
+        <li>
+            <h3>个人信息</h3>
+            <table>
+                <tr>
+                    <td class="left-td">姓名:</td>
+                    <td>刘锦辉</td>
+                    <td class="left-td">年龄:</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td class="left-td">学历:</td>
+                    <td>大专</td>
+                    <td class="left-td">专业:</td>
+                    <td>计算机科学与技术</td>
+                </tr>
+                <tr>
+                    <td class="left-td">手机:</td>
+                    <td>17666125066</td>
+                    <td class="left-td">邮箱:</td>
+                    <td><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=897254488@qq.com">897254488@qq.com</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="left-td">求职意向:</td>
+                    <td>小程序开发工程师</td>
+                    <td class="left-td">期待薪资:</td>
+                    <td>面议</td>
+                </tr>
+            </table>
+        </li>
+        <br/>
+        <li>
+            <h3>擅长技能</h3>
+            <table>
+                <tr>
+                    <td class="p-title">后端技能:</td>
+                </tr>
+                <tr>
+                    <td class="bottom-td">
+                        <span>
+                            <p>Spring、SpringMVC、Mybatis、MySql、Junit、Jsp、Memcached、Redis、Log4j 等;</p>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="p-title">前端技能:</td>
+                </tr>
+                <tr>
+                    <td class="bottom-td">
+                        <span>
+                            <p>React Native、小程序 wepy、Vue、Html、Sass、jQuery、ES6 等;</p>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="p-title">其他技能:</td>
+                </tr>
+                <tr>
+                    <td class="bottom-td">
+                        <span>
+                            <p>Tomcat、Nginx、Git、SVN、Maven、Idea 等</p>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </li>
+        <br/>
+        <li>
+            <h3>工作经历</h3>
+            <table>
+                <tr>
+                    <td class="left-td">公司名称:</td>
+                    <td>创意时空</td>
+                    <td class="left-td">时间:</td>
+                    <td>2016-09 ~ 2018-09</td>
+                </tr>
+            </table>
+            <p class="p-title">工作描述:</p>
+            <span class="left">
+                负责产品相关模块的表设计和代码开发；
+                负责 小程序 android Ios客户端 网站后台开发
+                配合产品组进行代码质量的持续优化；根据平台产品需求，完成研发的组织、计划、开发和交付等工作；
+            </span>
+        </li>
+        <br/>
+        <li class="title">
+            <h3>项目经验</h3>
+            <ol>
                 <table>
                     <tr>
-                        <td class="left-td">姓名:</td>
-                        <td>刘锦辉</td>
-                        <td class="left-td">年龄:</td>
-                        <td>23</td>
-                    </tr>
-                    <tr>
-                        <td class="left-td">学历:</td>
-                        <td>大专</td>
-                        <td class="left-td">专业:</td>
-                        <td>计算机科学与技术</td>
-                    </tr>
-                    <tr>
-                        <td class="left-td">手机:</td>
-                        <td>18037664266</td>
-                        <td class="left-td">邮箱:</td>
-                        <td><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=897254488@qq.com">897254488@qq.com</a></td>
-                    </tr>
-                    <tr>
-                        <td class="left-td">求职意向:</td>
-                        <td>java后端工程师</td>
-                        <td class="left-td">期待薪资:</td>
-                        <td>面议</td>
-                    </tr>
-                </table>
-            </li>
-
-            <li>
-                <h3>擅长技能</h3>
-                <table>
-                    <tr>
-                        <td class="p-title">后端技能:</td>
-                    </tr>
-                    <tr>
-                        <td class="bottom-td"><span>
-                            <p>Spring、SpringMVC、Mybatis、MySql、Junit、Jsp、Memcached、Redis、Shell、Log4j 等;</p>
-                            擅长使用 SSM 框架进行服务器的后端开发,
-                            熟悉 Mysql 数据表的优化,分表,函数;
-                            在实际项目中使用过 Memcached 和 Redis 进行查询优化;
-                            能够使用 Shell 脚本编写大部分的脚本;
-                        </span></td>
-                    </tr>
-                    <tr>
-                        <td class="p-title">前端技能:</td>
-                    </tr>
-                    <tr>
-                        <td class="bottom-td"><span>
-                            <p>Html、CSS、JavaScript、jQuery 等;</p>
-							熟练使用CSS，能够完美还原原型图，
-							JS基础扎实，熟练使用Jquery进行页面数据渲染
-                        </span></td>
-                    </tr>
-                    <tr>
-                        <td class="p-title">其他技能:</td>
-                    </tr>
-                    <tr>
-                        <td class="bottom-td"><span>
-                            <p>Tomcat、Jetty、Nginx、Git、SVN、Maven、Idea 等</p>
-                            熟练使用 Tomcat、Jetty、Nginx 等 Web 容器;
-                            熟练使用项目管理工具 Maven;
-                            能够熟练使用 Git 或 SVN 进行版本控制
-                        </span></td>
-                    </tr>
-                </table>
-            </li>
-
-            <li>
-                <h3>工作经历</h3>
-                <table>
-                    <tr>
-                        <td class="left-td">公司名称:</td>
-                        <td>河南863软件有限公司</td>
+                        <td class="left-td">项目名字:</td>
+                        <td>yecoo微服务云平台</td>
                         <td class="left-td">时间:</td>
-                        <td>2015-6~2017-10</td>
+                        <td>2018-7~2018-9</td>
                     </tr>
                 </table>
-                <p class="p-title">工作描述:</p>
-                <span class="left">
-                    负责产品相关模块的表设计和代码开发；配合产品组进行代码质量的持续优化；根据平台产品需求，完成研发的组织、计划、开发和交付等工作；
-                </span>
-            </li>
-
-            <li class="title">
-                <h3>项目经验</h3>
-                <ol>
-                    <table>
-                        <tr>
-                            <td class="left-td">项目名字:</td>
-                            <td>凡尘小说网</td>
-                            <td class="left-td">时间:</td>
-                            <td>2017-8~2017-9</td>
-                        </tr>
-                    </table>
-                    <li>
-                        <p class="p-title">使用技术:</p>
-                        <span class="left">Mysql、SpringMVC、MyBatis、Js、Ajax、Memcached、CSS、SVN</span>
-                        <p class="p-title">项目职责:</p>
-                        <span class="left">
-                        View层用JSP，Controller用Spring，持久层采用Mybatis技术。用Ajax实现异步刷新功能，解决登录页面刷新页面问题，也极大的增加用户体验度；
-                        完善该项目的相关文档资料。
+                <li>
+                    <p class="p-title">使用技术:</p>
+                    <span class="left">Mysql、SpringCloud、MyBatis、Mybatis-plus、Vue等</span>
+                    <p class="p-title">项目职责:</p>
+                    <span class="left">
+                        负责用户模块的接口和后台管理页面的开发
                         </span>
-                        <p class="p-title">项目描述:</p>
-                        <span class="left">
-                        该项目采用B/S模型开发。页面由EL表达式进行数据渲染，多线程爬虫进行小说数据爬取，根据小说名称和章节名称进行资源去重，
-						ajax进行登录验证,Mybatis动态查询并排序；
-                        </span>
-                    </li>
-                    <table>
-                        <tr>
-                            <td class="left-td">项目名字:</td>
-                            <td>求学大作战</td>
-                            <td class="left-td">时间:</td>
-                            <td>2017-9~2017-10</td>
-                        </tr>
-                    </table>
-                    <li>
-                        <p class="p-title">使用技术:</p>
-                        <span class="left">MySQL、Spring、Hibernate、Struts、JS、Ajax、CSS、JSP、Tomcat</span>
-                        <p class="p-title">项目职责:</p>
-                        <span class="left">
-                            负责视频模块的开发，前后台的接口文档编写，代码生成
-                        </span>
-                        <p class="p-title">项目描述:</p>
-                        <span class="left">
-                            该网页主要针对初中和高中的学渣开发，用户可以利用课余零散的时间进行学习，主要有文学部和影像部两大块，
-							前台有视频展示用户点赞收藏，后台有视频增删改查
-                        </span>
-                    </li>
-                    <table>
-                        <tr>
-                            <td class="left-td">项目名字:</td>
-                            <td>抢票信息管理</td>
-                            <td class="left-td">时间:</td>
-                            <td>2017-10~2017-11</td>
-                        </tr>
-                    </table>
-                    <li>
-                        <p class="p-title">使用技术:</p>
-                        <span class="left">MySQL、Spring、SpringMVC、Mybatis、Json、JQuery、Ajax、CSS、Tomcat</span>
-                        <p class="p-title">项目职责:</p>
-							接口的设计、数据表的设计、代码的实现
-                        <span class="left">
-                           
-                        </span>
-                        <p class="p-title">项目描述:</p>
-                        <span class="left">
-							春节期间和朋友一起帮别人抢票，但是由于用户数据多且杂乱，不能有效的分类，造成了时间和精力的浪费，因此诞生了这个网站
-							该项目使用前后端分离，使用CORS解决跨域问题，前端用nginx，后端用Tomcate
-							网站可以根据时间显示当天需要抢票的信息，
-							可以添加抢票信息，自动分配当前所剩人数最多的账号,可以快速的设置抢票的状态可以添加或编辑账号，设置账号剩余名额,
-							因为出发时间可以有很多个，于是前端写了个可以多选的日历，后端以逗号分隔，并写入时间表
-							请求今天要抢的信息时，判断时间<=今天的所有信息并对抢票信息id去重然后根据id依次查询抢票信息并返回
-                        </span>
-                    </li>
-                </ol>
-            </li>
-            <li id="none"></li>
-        </ul>
-    </div>
+                    <p class="p-title">项目描述:</p>
+                    <span class="left">
+                        该平台使用Spring Cloud开发的微服务平台,可以根据租户的需要自定义一个新项目
+                    </span>
+                </li>
+                <br/>
+                <table>
+                    <tr>
+                        <td class="left-td">项目名字:</td>
+                        <td>谷粒成长小程序</td>
+                        <td class="left-td">时间:</td>
+                        <td>2018-06~2018-07</td>
+                    </tr>
+                </table>
+                <li>
+                    <p class="p-title">使用技术:</p>
+                    <span class="left">Wepy, 原生小程序, Redux等</span>
+                    <p class="p-title">项目职责:</p>
+                    <span class="left">
+                        配合美工完成页面的设计和制作,以及数据对接
+                    </span>
+                    <p class="p-title">项目描述:</p>
+                    <span class="left">
+                        这是一个教育类小程序,项目主要针对2岁-9岁的孩子生活起居的问题进行问答,共16个页面,包含宝宝管理,视频播放,音频播放,登录授权,育儿课程等模块
+                    </span>
+                </li>
+                <br/>
+                <table>
+                    <tr>
+                        <td class="left-td">项目名字:</td>
+                        <td>边民互市电商</td>
+                        <td class="left-td">时间:</td>
+                        <td>2018-03-2018.06</td>
+                    </tr>
+                </table>
+                <li>
+                    <p class="p-title">使用技术:</p>
+                    <span class="left">React Native、React Navigation、Redux、React SVG等</span>
+                    <p class="p-title">项目职责:</p>
+                    <span class="left">
+                        负责React Native客户端 页面开发,数据对接,打包上线
+                    </span>
+                    <p class="p-title">项目描述:</p>
+                    <span class="left">
+                        这是一个电商项目,使用React Native进行开发页面使用Flex布局进行多端自适应,数据使用Redux进行集中管理,内含注册/登录,开店,店铺管理,商品管理,购物,支付等模块
+                    </span>
+                </li>
+            </ol>
+        </li>
+        <li id="none"></li>
+    </ul>
+</div>
 </body>
 </html>
